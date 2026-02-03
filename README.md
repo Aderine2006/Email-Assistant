@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# 📧 Email Generator
 
-## Project info
+Email Generator is a premium, AI-powered assistant designed to help you craft perfect emails in seconds. Whether you need a formal business proposal or a friendly check-in, our intelligent system ensures your tone and message are always on point.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+![Email Generator Logo](public/logo.png)
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- **AI-Powered Generation**: Leverages OpenAI's `gpt-4o-mini` to create context-aware emails.
+- **Tone Customization**: Choose from 6 professional tones (Formal, Friendly, Assertive, Apologetic, Confident, Persuasive).
+- **Key Points Integration**: Add specific points to ensure your email covers all necessary details.
+- **Modern UI**: A stunning violet-themed dashboard built with React and Tailwind CSS.
+- **Responsive Design**: Works perfectly on desktop and mobile devices.
+- **Smart Fallback**: Includes a high-quality template system that works even if the API quota is reached.
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Frontend**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+- **AI Engine**: [OpenAI GPT-4o-mini](https://openai.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v18 or higher)
+- npm or bun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Aderine2006/Email-Assistant.git
+    cd Email-Assistant
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3.  **Set up Environment Variables**:
+    Create a `.env` file in the root directory and add your OpenAI API key:
+    ```env
+    VITE_OPEN_AI_KEY=your_openai_api_key_here
+    ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+4.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+5.  **Build for production**:
+    ```bash
+    npm run build
+    ```
 
-**Edit a file directly in GitHub**
+## 🎨 Design System
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The project uses a custom-curated **Violet Design System**, providing a productivity-focused and premium aesthetic.
+- **Colors**: Vibrant Violet primary, clean backgrounds, and subtle glassmorphism.
+- **Typography**: Clean sans-serif fonts for maximum readability.
 
-**Use GitHub Codespaces**
+## 📄 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is open-source and available for educational purposes.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+*Crafted with ❤️ by Aderine*
